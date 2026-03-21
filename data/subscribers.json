@@ -1,0 +1,34 @@
+[
+  {
+    "email": "verify@itzfizz.com",
+    "timestamp": "2026-03-17T09:43:59.139Z"
+  },
+  {
+    "email": "final_verification@itzfizz.com",
+    "timestamp": "2026-03-17T10:00:31.125Z"
+  },
+  {
+    "email": "final_check@itzfizz.com",
+    "timestamp": "2026-03-17T10:00:47.175Z"
+  },
+  {
+    "email": "test@itzfizz.com",
+    "timestamp": "2026-03-17T10:08:00.639Z"
+  },
+  {
+    "email": "test@itzfizz.com",
+    "timestamp": "2026-03-17T10:09:03.553Z"
+  },
+  {
+    "email": "test@itzfizz.com",
+    "timestamp": "2026-03-17T10:09:48.039Z"
+  },
+  {
+    "email": "test@itzfizz.com",
+    "timestamp": "2026-03-17T10:16:15.527Z"
+  },
+  {
+    "email": "test_browser@itzfizz.com",
+    "timestamp": "2026-03-17T10:26:54.222Z"
+  }
+]
