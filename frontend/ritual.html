@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ritual | Aetheria Botanical Skincare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <span>Free Botanical Ritual Kit on orders over $150</span>
+            <span>•</span>
+            <span>Free Global Shipping on all Rituals</span>
+            <span>•</span>
+            <span>15% Off Your First Luxury Order</span>
+        </div>
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html"><img src="/assets/aetheria_logo.png" alt="Aetheria Logo"></a>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop All</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="ritual.html" class="active">The Ritual</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="cart-icon">Cart (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="ritual-hero">
+        <div class="ritual-hero-content">
+            <p class="ritual-eyebrow">Curated by Botanical Scientists</p>
+            <h1>The Morning &amp; Night Ritual</h1>
+            <p class="lead-text">A three-step ceremony for timeless, glowing skin.<br>Crafted with nature's most potent botanicals.</p>
+            <div class="ritual-hero-divider"></div>
+            <a href="#ritual-steps-grid" class="ritual-scroll-cta">Discover the Steps ↓</a>
+        </div>
+    </section>
+
+    <!-- Side-by-Side Ritual Grid -->
+    <section id="ritual-steps-grid" class="ritual-steps-grid-section">
+        <div class="container">
+            <div class="ritual-grid-container">
+                <!-- Step 01 -->
+                <div class="ritual-card">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <span class="step-num-bg">01</span>
+                        <div class="step-icon-modern">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                                <circle cx="12" cy="9" r="2.5"/>
+                            </svg>
+                        </div>
+                        <h3>Purify</h3>
+                        <p>Dissolve impurities with <strong>Velvet Petal Cleanser</strong>. A gentle botanical base for a clean canvas.</p>
+                        <a href="product.html?product=velvet-petal-cleanser" class="card-link">Explore Cleanser</a>
+                    </div>
+                </div>
+
+                <!-- Connecting Line 1 -->
+                <div class="ritual-connector">
+                    <svg viewBox="0 0 100 20" preserveAspectRatio="none">
+                        <path d="M0,10 Q50,20 100,10" fill="none" stroke="var(--accent-color)" stroke-width="0.5" stroke-dasharray="4,4"/>
+                    </svg>
+                </div>
+
+                <!-- Step 02 -->
+                <div class="ritual-card active-step">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <span class="step-num-bg">02</span>
+                        <div class="step-icon-modern">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <circle cx="12" cy="12" r="5"/>
+                                <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                            </svg>
+                        </div>
+                        <div class="bestseller-tab">Essential</div>
+                        <h3>Activate</h3>
+                        <p>Illuminate with <strong>Luminous Dew Serum</strong>. Botanical hyaluronic acid for deep radiance.</p>
+                        <a href="product.html?product=luminous-dew-serum" class="card-link">Explore Serum</a>
+                    </div>
+                </div>
+
+                <!-- Connecting Line 2 -->
+                <div class="ritual-connector">
+                    <svg viewBox="0 0 100 20" preserveAspectRatio="none">
+                        <path d="M0,10 Q50,0 100,10" fill="none" stroke="var(--accent-color)" stroke-width="0.5" stroke-dasharray="4,4"/>
+                    </svg>
+                </div>
+
+                <!-- Step 03 -->
+                <div class="ritual-card">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <span class="step-num-bg">03</span>
+                        <div class="step-icon-modern">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                            </svg>
+                        </div>
+                        <h3>Restore</h3>
+                        <p>Repair with <strong>Night Recovery Elixir</strong>. Wake up to skin that is visibly refreshed and plump.</p>
+                        <a href="product.html?product=night-recovery-elixir" class="card-link">Explore Elixir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philoshopy Banner -->
+    <section class="botanical-philosophy-banner">
+        <div class="container">
+            <div class="philosophy-flex">
+                <div class="phi-item">
+                    <h4>100%</h4>
+                    <span>Botanical</span>
+                </div>
+                <div class="phi-divider"></div>
+                <div class="phi-item">
+                    <h4>72hr</h4>
+                    <span>Hydration</span>
+                </div>
+                <div class="phi-divider"></div>
+                <div class="phi-item">
+                    <h4>Pure</h4>
+                    <span>Science</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="ritual-cta-final">
+        <div class="container">
+            <div class="cta-inner-card glass-card text-center">
+                <h2>Begin Your Ritual</h2>
+                <p>Complete the set and transform your skin journey today.</p>
+                <div class="cta-btns">
+                    <a href="shop.html" class="btn">Shop The Collection</a>
+                    <a href="index.html" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="/assets/aetheria_logo.png" alt="Aetheria Logo">
+                <p>Botanical Science. Radiant Soul.</p>
+            </div>
+            <div class="footer-links" id="footer-support">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="shipping.html">Shipping</a></li>
+                    <li><a href="returns.html">Returns</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="track-order.html">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-links" id="footer-legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="domain-basics.html">Domain Basics</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Aetheria Botanical Skincare. Built for Digital Heroes.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Aetheria Botanical Skincare</title>
+    <meta name="description" content="Common questions about our organic botanicals, clinical efficacy, and global shipping. Find everything you need to know about the Aetheria journey.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <span>Free Botanical Ritual Kit on orders over $150</span>
+            <span>•</span>
+            <span>Free Global Shipping on all Rituals</span>
+            <span>•</span>
+            <span>15% Off Your First Luxury Order</span>
+        </div>
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html"><img src="/assets/aetheria_logo.png" alt="Aetheria Logo"></a>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop All</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="ritual.html">The Ritual</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to Home</a>
+            <h1>Frequently Asked Questions</h1>
+            <p>Curating your botanical experience.</p>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Are your products 100% organic?</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, all Aetheria products are formulated with ethically sourced, certified organic botanicals without any synthetic additives.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How long does shipping take?</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>International shipping typically takes 5-7 business days. Express botanical delivery is available for most metropolitan regions.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Are your botanicals ethically sourced?</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Absolute integrity is our foundation. We partner exclusively with sustainable farms that respect the earth's natural cycles, ensuring that every drop of Aetheria is as kind to the planet as it is to your skin.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How do I experience the full Ritual?</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Each product comes with a dedicated Ritual Guide. Using the prescribed movements and sequence maximizes the bioavailability of our clinical actives while providing a moment of profound sensory restoration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="/assets/aetheria_logo.png" alt="Aetheria Logo">
+                <p>Botanical Science. Radiant Soul.</p>
+            </div>
+            <div class="footer-links" id="footer-support">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="shipping.html">Shipping</a></li>
+                    <li><a href="returns.html">Returns</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="track-order.html">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-links" id="footer-legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="domain-basics.html">Domain Basics</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Aetheria Botanical Skincare. Built for Digital Heroes.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+    <script>
+        document.querySelectorAll('.accordion-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Deployment Configuration for Aetheria Backend
+# This file demonstrates GitOps Best Practices for Render / AWS AppRunner
+
+services:
+  - type: web
+    name: aetheria-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: PG_HOST
+        sync: false

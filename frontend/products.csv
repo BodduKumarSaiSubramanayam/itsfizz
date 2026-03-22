@@ -1,0 +1,9 @@
+Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Variant Price,Variant SKU,Variant Inventory Qty,Image Src
+luminous-dew-serum,Luminous Dew Serum,"Ultra-hydrating serum with botanical hyaluronic acid.","Aetheria Botanical","Ritual Essential","Bestseller, Serum, Hydration",true,Size,30ml,75.00,AETH-SR-30,50,/assets/product-serum.png
+luminous-dew-serum,Luminous Dew Serum,"Ultra-hydrating serum with botanical hyaluronic acid.","Aetheria Botanical","Ritual Essential","Bestseller, Serum, Hydration",true,Size,50ml,95.00,AETH-SR-50,35,/assets/product-serum.png
+velvet-petal-cleanser,Velvet Petal Cleanser,"Gentle cream cleanser with rose extract.","Aetheria Botanical","Ritual Essential","Cleanser, Gentle",true,Size,150ml,45.00,AETH-CL-150,100,/assets/product-cleanser.png
+night-recovery-elixir,Night Recovery Elixir,"Intensive overnight repair oil with bakuchiol.","Aetheria Botanical","Ritual Essential","Elixir, Night, Repair",true,Size,30ml,85.00,AETH-EL-30,25,/assets/product-elixir.png
+botanical-ritual-kit,Botanical Ritual Kit,"The complete introduction to Aetheria skincare.","Aetheria Botanical","Ritual Kit","Kit, Gift, Starter",true,Version,Essential,150.00,AETH-KT-ESS,15,/assets/product-kit.png
+azure-clay-mask,Azure Clay Mask,"Purifying mask with blue tansy and marine minerals.","Aetheria Botanical","Ritual Treatment","Mask, Purifying, Spa",true,Size,60g,55.00,AETH-MK-60,40,/assets/product-mask.png
+solar-guardian-spf,Solar Guardian SPF 30,"Mineral sunscreen with antioxidant-rich botanical extracts.","Aetheria Botanical","Ritual Essential","SPF, Protection, Daily",true,Size,50ml,40.00,AETH-SP-50,60,/assets/product-spf.png
+jasmine-body-silk,Jasmine Body Silk,"Whipped body butter with jasmine and shea.","Aetheria Botanical","Ritual Body","Body, Hydration, Luxury",true,Size,200ml,65.00,AETH-BS-200,30,/assets/product-body.png

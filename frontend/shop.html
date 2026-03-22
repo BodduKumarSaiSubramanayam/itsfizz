@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop All | Aetheria Botanical Skincare</title>
+    <meta name="description" content="Shop the complete Aetheria ritual collection. From luminous serums to cellular recovery elixirs, find your perfect botanical match.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <span>Free Botanical Ritual Kit on orders over $150</span>
+            <span>•</span>
+            <span>Free Global Shipping on all Rituals</span>
+            <span>•</span>
+            <span>15% Off Your First Luxury Order</span>
+        </div>
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html"><img src="/assets/aetheria_logo.png" alt="Aetheria Logo"></a>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html" class="active">Shop All</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="ritual.html">The Ritual</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="cart-icon">Cart (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>The Full Collection</h1>
+            <p>Efficacious formulas for every skin ritual.</p>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <div class="shop-controls">
+                <div class="filter-categories">
+                    <button class="filter-btn active" data-category="all">All Products</button>
+                    <button class="filter-btn" data-category="serums">Serums</button>
+                    <button class="filter-btn" data-category="cleansers">Cleansers</button>
+                    <button class="filter-btn" data-category="elixirs">Elixirs</button>
+                    <button class="filter-btn" data-category="essentials">The Essentials</button>
+                    <button class="filter-btn" data-category="treatments">Treatment Heroes</button>
+                </div>
+                <div class="sort-dropdown">
+                    <span>Sort by: Featured</span>
+                </div>
+            </div>
+            
+            <div id="product-list" class="product-grid">
+                <!-- Products will be injected here via TS -->
+            </div>
+
+            <section class="trust-signals" style="margin-top: 5rem;">
+                <div class="container feature-grid">
+                    <div class="feature-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        <h4>Dermatologist Tested</h4>
+                        <p>Clinically proven safety</p>
+                    </div>
+                    <div class="feature-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L3 7v9l9 5 9-5V7l-9-5z"></path><path d="M12 22V12"></path><path d="M12 12L3 7"></path><path d="M12 12l9-5"></path></svg>
+                        <h4>Paraben Free</h4>
+                        <p>Clean, non-toxic formulas</p>
+                    </div>
+                    <div class="feature-item">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><path d="M16 12l-4 4-4-4"></path><path d="M12 8v8"></path></svg>
+                        <h4>Eco-Conscious</h4>
+                        <p>Sustainable glass packaging</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="promotional-banner">
+        <div class="container glass-card text-center">
+            <h3>Not sure which ritual is right for you?</h3>
+            <p>Take our 2-minute Skin Analysis and get a personalized botanical regimen.</p>
+            <a href="#" id="open-skin-quiz" class="btn">Take the Skin Quiz</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="/assets/aetheria_logo.png" alt="Aetheria Logo">
+                <p>Botanical Science. Radiant Soul.</p>
+            </div>
+            <div class="footer-links" id="footer-support">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="shipping.html">Shipping</a></li>
+                    <li><a href="returns.html">Returns</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="track-order.html">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-links" id="footer-legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="domain-basics.html">Domain Basics</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Aetheria Botanical Skincare. Built for Digital Heroes.</p>
+        </div>
+    </footer>
+
+    <div id="sticky-atc" class="sticky-atc">
+        <div class="container sticky-atc-content">
+            <div id="sticky-product-info" class="sticky-info">
+                <!-- Injected via TS -->
+            </div>
+            <button class="btn btn-atc">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Email Capture Pop-up -->
+    <div id="email-modal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2>Join the Ritual</h2>
+                <p>Receive 15% off your first luxury order and exclusive access to botanical insights.</p>
+            </div>
+            <form id="modal-newsletter-form" class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn">Unlock 15% Off</button>
+            </form>
+            <p class="modal-footer">By joining, you agree to our Privacy Policy.</p>
+        </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

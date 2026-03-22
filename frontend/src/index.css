@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Custom Base Styles for Aetheria to retain its premium look */
+@layer base {
+  body {
+    @apply bg-[#faf9f6] text-[#2c3e2e] antialiased;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
