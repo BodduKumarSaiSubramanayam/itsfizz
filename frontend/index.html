@@ -1,13 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aetheria: Modern Full-Stack E-Commerce</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetheria | Premium Botanical Skincare</title>
+    <meta name="description" content="Experience the synergy of rare botanicals and clinical efficacy with Aetheria. Discover organic, science-led skincare rituals for radiant, ageless skin.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/index.css" />
+  <link rel="stylesheet" href="/src/style.css" />
+  <script type="module" src="/src/main.ts"></script>
+</head>
+<body>
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <span>Free Botanical Ritual Kit on orders over $150</span>
+            <span>•</span>
+            <span>Free Global Shipping on all Rituals</span>
+            <span>•</span>
+            <span>15% Off Your First Luxury Order</span>
+        </div>
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="/assets/aetheria_logo.png" alt="Aetheria Logo">
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop All</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="ritual.html">The Ritual</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="cart-icon">Cart (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" style="background-image: url('/assets/aetheria_campaign_banner_luxury_1773550501664.png');">
+        <div class="container">
+            <h1>Science-Led <br>Botanical Rituals</h1>
+            <p>Experience the synergy of rare botanicals and clinical efficacy for ageless, radiant skin.</p>
+            <a href="#shop" class="btn">Explore the Collection</a>
+        </div>
+    </section>
+
+    <section class="rich-text">
+        <div class="container text-center">
+            <h2>The Aetheria Promise</h2>
+            <p class="lead-text">Skincare as a ritual of serenity. Meticulously crafted formulas using ethically sourced botanicals to reveal your most radiant self.</p>
+        </div>
+    </section>
+
+    <section class="philosophy">
+        <div class="container" style="display: flex; align-items: center; gap: 5rem;">
+            <div class="philosophy-content">
+                <p class="section-subtitle" style="color: var(--accent-color); letter-spacing: 4px; font-weight: 600; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 1rem;">OUR HERITAGE</p>
+                <h2>The Botanical <br>Philosophy</h2>
+                <p>At Aetheria, we believe skincare is the ultimate act of self-reverence. Our journey began in the wild gardens of Provence, where we discovered that the most potent solutions for skin health are found in the synergetic rhythms of nature.</p>
+                <p>By combining rare, cold-pressed botanicals with vanguard clinical actives, we create rituals that transcend the surface—nourishing both your complexion and your soul.</p>
+                <a href="about.html" class="btn btn-secondary" style="color: var(--primary-bg); border-color: var(--primary-bg);">Our Story</a>
+            </div>
+            <div class="philosophy-image" style="background-image: url('/assets/aetheria_luxury_skincare_textures_1773550186524.png');"></div>
+        </div>
+    </section>
+
+    <section class="featured-collections">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ritual Collections</h2>
+                <p>Curated botanicals for your skin's unique journey.</p>
+            </div>
+            <div class="collections-grid">
+                <div class="collection-item glass-card" style="background-image: url('/assets/aetheria_luxury_botanical_cleanser_1773550175515.png')">
+                    <div class="collection-overlay">
+                        <h3>Deep Hydration</h3>
+                        <a href="shop.html?cat=serums" class="btn btn-sm">Shop Serums</a>
+                    </div>
+                </div>
+                <div class="collection-item glass-card" style="background-image: url('/assets/aetheria_velvet_cleanser_tube_1773550174593.png')">
+                    <div class="collection-overlay">
+                        <h3>Gentle Purification</h3>
+                        <a href="shop.html?cat=cleansers" class="btn btn-sm">Shop Cleansers</a>
+                    </div>
+                </div>
+                <div class="collection-item glass-card" style="background-image: url('/assets/aetheria_night_elixir_1773550160238.png')">
+                    <div class="collection-overlay">
+                        <h3>Cellular Recovery</h3>
+                        <a href="shop.html?cat=elixirs" class="btn btn-sm">Shop Elixirs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-signals why-aetheria">
+        <div class="container text-center">
+            <div class="section-title">
+                <h2>Why Aetheria?</h2>
+                <p>Nature's potency, refined by science. The botanical standard for modern beauty.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <h4>Dermatologist Tested</h4>
+                    <p>Clinically proven safety for all skin types, including sensitive skin.</p>
+                </div>
+                <div class="feature-item">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L3 7v9l9 5 9-5V7l-9-5z"></path><path d="M12 22V12"></path><path d="M12 12L3 7"></path><path d="M12 12l9-5"></path></svg>
+                    <h4>Paraben Free</h4>
+                    <p>100% clean, non-toxic formulas. We never use fillers or harsh synthetics.</p>
+                </div>
+                <div class="feature-item">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><path d="M16 12l-4 4-4-4"></path><path d="M12 8v8"></path></svg>
+                    <h4>Eco-Conscious</h4>
+                    <p>Sustainable, miron-glass packaging to preserve potency and protect the planet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class="featured-collection">
+        <div class="container">
+            <div class="section-title">
+                <h2>Bestselling Rituals</h2>
+                <p>Trusted by thousands for a radiant, healthy glow.</p>
+            </div>
+            <div id="product-list" class="product-grid">
+                <!-- Products will be injected here via TS -->
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Voices of Radiance</h2>
+                <p>Real experiences from our global community of ritualists.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-content">
+                        <p>"The Luminous Dew Serum has completely changed my morning routine. My skin has never looked so vibrant and hydrated."</p>
+                    </div>
+                    <div class="testimonial-author">Sarah J. — Verified Buyer</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-content">
+                        <p>"Professional quality results from purely organic ingredients. Aetheria is the new standard in skincare."</p>
+                    </div>
+                    <div class="testimonial-author">Michael R. — Skin Specialist</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-content">
+                        <p>"I love the sustainability focus. Premium skincare that respects the planet without compromising on luxury."</p>
+                    </div>
+                    <div class="testimonial-author">Elena T. — Eco-Conscious Ritualist</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L3 7v9c0 5 9 6 9 6s9-1 9-6V7l-9-5z"></path></svg>
+                    <h3>100% Organic</h3>
+                    <p>Pure botanical ingredients harvested at peak potency.</p>
+                </div>
+                <div class="feature-item">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.89-8.89 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    <h3>Cruelty Free</h3>
+                    <p>Leaping Bunny certified. No animal testing ever.</p>
+                </div>
+                <div class="feature-item">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                    <h3>Sustainable</h3>
+                    <p>Eco-conscious miron-glass packaging to preserve bioactive compounds.</p>
+                </div>
+            </div>
+
+            <div class="trust-badges-premium">
+                <div class="trust-badge-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <span>Secure SSL</span>
+                </div>
+                <div class="trust-badge-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
+                    <span>30-Day Guarantee</span>
+                </div>
+                <div class="trust-badge-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7h-7L10 3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2z"></path></svg>
+                    <span>Free Shipping</span>
+                </div>
+                <div class="trust-badge-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"></path></svg>
+                    <span>Five Star Rated</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-science" style="background-color: #EEECE7; padding: 10rem 0;">
+        <div class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <p class="section-subtitle" style="color: var(--accent-color); letter-spacing: 4px; font-weight: 600; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 2rem;">THE SCIENCE OF BEAUTY</p>
+            <h2 style="font-size: 3rem; margin-bottom: 4rem;">Clinical Efficacy. <br>Cold-Pressed Purity.</h2>
+            <div class="feature-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4rem; width: 100%;">
+                <div class="feature-item">
+                    <h3 style="font-size: 4rem; color: var(--accent-color); margin-bottom: 1rem; font-family: var(--font-heading);">98%</h3>
+                    <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.75rem;">Botanical Bio-Availability</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.7;">Our signature extraction method preserves molecular integrity for deeper skin penetration.</p>
+                </div>
+                <div class="feature-item">
+                    <h3 style="font-size: 4rem; color: var(--accent-color); margin-bottom: 1rem; font-family: var(--font-heading);">24h</h3>
+                    <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.75rem;">Continuous Hydration</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.7;">Clinically proven to sustain moisture barriers long after the ritual is complete.</p>
+                </div>
+                <div class="feature-item">
+                    <h3 style="font-size: 4rem; color: var(--accent-color); margin-bottom: 1rem; font-family: var(--font-heading);">0%</h3>
+                    <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.75rem;">Synthetic Fillers</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.7;">Pure, purposeful formulas. We never use parabens, sulfates, or artificial fragrances.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container text-center">
+            <h2>Join the Inner Circle</h2>
+            <p>Elevate your ritual. 15% off your first luxury order.</p>
+            <form id="newsletter-form" class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="marketplace-connect">
+        <div class="container text-center">
+            <p class="section-subtitle">GLOBAL PRESENCE</p>
+            <h3>Aetheria is Available Worldwide</h3>
+            <div class="marketplace-badges">
+                <div class="marketplace-item"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon"><span>Official Store</span></div>
+                <div class="marketplace-item"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay"><span>Premium Partner</span></div>
+                <div class="marketplace-item"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Walmart_logo.svg" alt="Walmart"><span>Curated Selection</span></div>
+            </div>
+            <p class="marketplace-note">Integrated via Shopify Marketplace Connect</p>
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="/assets/aetheria_logo.png" alt="Aetheria Logo">
+                <p>Botanical Science. Radiant Soul.</p>
+            </div>
+            <div class="footer-links" id="footer-support">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="shipping.html">Shipping</a></li>
+                    <li><a href="returns.html">Returns</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="track-order.html">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-links" id="footer-legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="domain-basics.html">Domain Basics</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Aetheria Botanical Skincare. Built for Digital Heroes.</p>
+        </div>
+    </footer>
+
+    <div id="sticky-atc" class="sticky-atc">
+        <div class="container sticky-atc-content">
+            <div id="sticky-product-info" class="sticky-info">
+                <!-- Injected via TS -->
+            </div>
+            <button class="btn btn-atc">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Email Capture Pop-up -->
+    <div id="email-modal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2>Join the Ritual</h2>
+                <p>Receive 15% off your first luxury order and exclusive access to botanical insights.</p>
+            </div>
+            <form id="modal-newsletter-form" class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn">Unlock 15% Off</button>
+            </form>
+            <p class="modal-footer">By joining, you agree to our Privacy Policy.</p>
+        </div>
+    </div>
+
+    <!-- Shopify Sidekick AI (Required Feature) -->
+    <div class="sidekick-fab">
+        <div class="sidekick-glow"></div>
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71L12 2z"></path></svg>
+        <div class="sidekick-tooltip">Ask Sidekick AI</div>
+    </div>
+    
+    <div id="sidekick-panel" class="sidekick-panel glass-card">
+        <div class="sidekick-header">
+            <h3>Sidekick AI <span>Pro</span></h3>
+            <button id="close-sidekick" onclick="toggleSidekick()">&times;</button>
+        </div>
+        <div class="sidekick-body">
+            <p class="sidekick-intro">I am analyzing your store for conversion optimization.</p>
+            <div class="sidekick-actions">
+                <button class="sidekick-btn" onclick="optimizePage()">✨ Optimize Search SEO</button>
+                <button class="sidekick-btn" onclick="optimizePage()">🎨 Suggest Section Layout</button>
+            </div>
+            <div id="sidekick-output"></div>
+        </div>
+    </div>
+
+</body>
 </html>
